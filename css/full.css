@@ -11,9 +11,47 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .full {
-    background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+    background: url('http://thetwopines.com/wp-content/uploads/2016/01/LEATHERPIECES.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    height: 600px;
+    padding-top: 20px;
+
+}
+.title_header{
+	
+	margin-top: 0px;
+
+}
+
+.presentation{
+	background-color: rgb(7,7,7);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+
+}
+.presentation h1{
+	font-size: 33px;
+}
+
+.presentation h2{
+	font-size: 25px;
+}
+.presentation p{
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.row img{
+
+	height: 300px;
+	width: 600px;
 }
