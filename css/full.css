@@ -16,28 +16,35 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 600px;
+    height: 650px;
     padding-top: 20px;
 
 }
-.title_header{
-	
-	margin-top: 0px;
 
+.title_header-responsive{
+	text-align: center;
+	color: black;
+	margin: 250px 50px 50px 1000px;
+	padding: 1px 5px 5px 0px;
+	background-color: rgba(255,255,255,.2);
+	border-radius: 75px 35px;
+	width: 700px;
 }
 
 .presentation{
-	background-color: rgb(7,7,7);
+	background-color: rgb(10,10,10);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: center;
 	color: white;
-	padding-top: 20px;
-
+	margin: 0px;
+	height: 180px;
 }
+
 .presentation h1{
 	font-size: 33px;
+	padding-top: 20px;
 }
 
 .presentation h2{
@@ -50,8 +57,5 @@ body {
 	font-style: italic;
 }
 
-.row img{
 
-	height: 300px;
-	width: 600px;
-}
+
