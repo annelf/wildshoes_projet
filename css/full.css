@@ -16,15 +16,15 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 650px;
+    height: 850px;
     padding-top: 20px;
 
 }
 
-.title_header-responsive{
+.title_header{
 	text-align: center;
 	color: black;
-	margin: 250px 50px 50px 1000px;
+	margin: 250px 50px 50px 600px;
 	padding: 1px 5px 5px 0px;
 	background-color: rgba(255,255,255,.2);
 	border-radius: 75px 35px;
@@ -56,6 +56,11 @@ body {
 	font-size: 16px;
 	font-style: italic;
 }
+
+.container-fluid{
+	padding: 55px 0px 55px 0px;
+}
+
 
 
 
