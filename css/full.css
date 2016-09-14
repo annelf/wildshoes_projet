@@ -64,6 +64,18 @@ body {
 	padding: 55px 0px 55px 0px;
 }
 
+.texte-slide {
+	font-size: 12px;
+}
+
+.titre-slide {
+	font-size: 16px;
+}
+
+#myCarousel {
+	margin-top: 60px;
+}
+
 
 
 
