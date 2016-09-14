@@ -76,6 +76,16 @@ body {
 	margin-top: 60px;
 }
 
+.titre-slide {
+	font-size: 35px;
+}
+
+.texte-slide {
+	font-size: 35px;
+	color: white; text-shadow: black 0.2em 0.2em 0.1em
+
+}
+
 
 
 
