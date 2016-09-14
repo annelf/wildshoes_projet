@@ -13,6 +13,15 @@
     <!-- Custom CSS -->
     <link href="css/full.css" rel="stylesheet">
     <link href="css/half-slider.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+    <link rel="stylesheet" href="css/demo.css">
+	<link rel="stylesheet" href="css/footer-basic-centered.css">
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+
+
+<script src="https://use.fontawesome.com/4b73a13289.js"></script>
+
+	
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -357,16 +366,79 @@
         </a>
     </div>
 <!--https://s-media-cache-ak0.pinimg.com/564x/10/e0/cd/10e0cd826346e55dba10547834a0f4e0.jpg-->
-<footer>
+<footer class="footer-distributed">
 
-	<h2 id="contact">Contact</h2>
+			<div class="footer-left">
 
-</footer>
+				<h3>Wildshoes<span></span></h3>
+				<img 
+
+				<p class="footer-links">
+					<a href="#">Accueil</a>
+					·
+					<a href="#">Chausse-Pieds</a>
+					·
+					<a href="#">Tire-bottes</a>
+					·
+					<a href="#">Sur-Mesure</a>
+					·
+					<!--<a href="#">""</a>-->
+					·
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">Wildshoes &copy; 2015</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>1 Avenue du Champ de Mars</span> 45000 Orléans</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>02 38 37 36 35</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@cwildshoes.com">contact@wildshoes.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>À propos</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+			 <div id="mapid">
+			 	var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+			 </div>
+
+		</footer>
     <!-- Put your page content here! -->
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <!--leaflet javascript-->
+     <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
 
 
 </body>

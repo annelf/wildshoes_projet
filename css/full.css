@@ -82,9 +82,11 @@ body {
 
 .texte-slide {
 	font-size: 35px;
-	color: white; text-shadow: black 0.2em 0.2em 0.1em
+	/* color: white; text-shadow: black 0.2em 0.2em 0.1em--> */
 
 }
+
+#mapid { height: 180px; }
 
 
 
