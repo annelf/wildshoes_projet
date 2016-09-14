@@ -6,6 +6,7 @@
 
 body {
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    min-width: 300px;
 }
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
@@ -24,11 +25,11 @@ body {
 .title_header{
 	text-align: center;
 	color: black;
-	margin: 250px 50px 50px 600px;
-	padding: 1px 5px 5px 0px;
+	margin-top: 250px;
+	padding: 10px 5px 10px 5px;
 	background-color: rgba(255,255,255,.2);
 	border-radius: 75px 35px;
-	width: 700px;
+	
 }
 
 .presentation{
@@ -55,6 +56,8 @@ body {
 	padding-bottom: 20px;
 	font-size: 16px;
 	font-style: italic;
+	margin-left: 300px;
+	margin-right: 300px;
 }
 
 .container-fluid{
