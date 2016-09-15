@@ -98,8 +98,20 @@ body {
 	font-size: 16px;
 }
 
+#myCarousel {
+	margin-top: 60px;
+}
 
+.titre-slide {
+	font-size: 30px;
+	font-family: 'Arbutus Slab', serif;
+}
 
+.texte-slide {
+	font-size: 30px;
+	font-family: 'Arbutus Slab', serif;
+	/* color: white; text-shadow: black 0.2em 0.2em 0.1em--> */
 
+}
 
-
+#mapid { height: 180px; }
