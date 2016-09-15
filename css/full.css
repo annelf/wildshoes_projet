@@ -49,7 +49,11 @@ body {
 }
 
 .presentation{
+<<<<<<< HEAD
 	background: url('http://static.facegfx.com/2012/brown-stripe-texture-background-06-hd-pictures_558734763.jpg');
+=======
+	background-color: rgb(83, 63, 52);
+>>>>>>> footer
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -99,6 +103,18 @@ body {
 }
 
 
+
+.titre-slide {
+	font-size: 30px;
+	font-family: 'Arbutus Slab', serif;
+}
+
+.texte-slide {
+	font-size: 30px;
+	font-family: 'Arbutus Slab', serif;
+	/* color: white; text-shadow: black 0.2em 0.2em 0.1em--> */
+
+}
 
 
 
