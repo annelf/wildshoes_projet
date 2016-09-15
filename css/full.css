@@ -4,14 +4,15 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 .navbar-fixed-top{
-	background-color: rgb(21,13,15);
+	background-color: rgb(21, 13, 15);
 	color: rgb(191,167,157);
+	font-family: 'Cinzel', serif;
+    font-size: 15px;
 }
 
 body {
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    min-width: 300px;
-   
+    min-width: 300px;   
 }
 
 .container{
@@ -31,16 +32,21 @@ body {
 }
 
 .title_header{
-	font-family: 'Homemade Apple', cursive; 
+	font-family: 'Rufina', serif; 
 	text-align: center; 
-	color: black;
+	color: rgb(180, 147, 77);
 	padding-top: 150px;
-	text-shadow: 2px 3px 0.4px rgb(191,167,157);
-
 }
 
 .title_header h1{
-	font-size: 30px;
+	font-size: 70px;
+	font-family: 'Great Vibes', cursive;
+	color: rgb(180, 147, 77);
+}
+
+h1 {
+	font-family: 'Cinzel', serif;
+	color: rgb(21, 13, 15);
 }
 
 .title_header p{
@@ -49,33 +55,37 @@ body {
 }
 
 .presentation{
-	background: url('http://static.facegfx.com/2012/brown-stripe-texture-background-06-hd-pictures_558734763.jpg');
+	/*background: url('http://static.facegfx.com/2012/brown-stripe-texture-background-06-hd-pictures_558734763.jpg');*/
+	background: rgb(83, 63, 52);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: center;
-	color: rgb(191,167,157);
+	color: white;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 .presentation h1{
-	font-size: 40px;
+	font-size: 45px;
 	margin-top: 0px;
-	color: rgb(47,18,2);
-	text-shadow: 2px 3px 0.4px rgb(191,167,157);
+	color: white;
+	font-family: 'Great Vibes', cursive;
+	text-shadow: 1px 3px 0.4px
+
 }
 
 .presentation h2{
 	font-size: 25px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	font-family: 'Cinzel', serif;
 }
 
 .presentation p{
 	margin-bottom: 0px;
-	font-size: 16px;
-	font-style: italic;
+	font-size: 18px;
+	font-family: 'Cinzel', serif;
 }
 
 .shoehorn{
@@ -90,28 +100,20 @@ body {
 	height: auto;
 }
 
-.texte-slide {
-	font-size: 12px;
-}
-
-.titre-slide {
-	font-size: 16px;
-}
-
 #myCarousel {
 	margin-top: 60px;
 }
 
 .titre-slide {
-	font-size: 30px;
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Great Vibes', cursive;
+	color: rgb(34, 22, 22);
+	font-size: 55px;
 }
 
 .texte-slide {
-	font-size: 30px;
-	font-family: 'Arbutus Slab', serif;
-	/* color: white; text-shadow: black 0.2em 0.2em 0.1em--> */
-
+	font-family: 'Great Vibes', cursive;
+	color: rgb(34, 22, 22);
+	font-size: 50px;
 }
 
 #mapid { height: 180px; }
