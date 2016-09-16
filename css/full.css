@@ -40,8 +40,11 @@ body {
 .title_header h1{
 	font-size: 70px;
 	font-family: 'Great Vibes', cursive;
-	color: rgb(180, 147, 77);
+	color: rgb(21, 13, 15);
+	margin-top: 5px;
+	text-align: center;
 }
+
 
 h1 {
 	font-family: 'Cinzel', serif;
@@ -51,6 +54,13 @@ h1 {
 .title_header p{
 	font-size: 20px;
 	line-height: 50px;
+	text-align: center;
+	color: black;
+	margin-top: 250px;
+	padding: 10px 5px 10px 5px;
+	background-color: rgba(255,255,255,.2);
+	margin-top: 30px;
+	
 }
 
 .presentation{
@@ -64,6 +74,7 @@ h1 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
 
 .presentation h1{
 	font-size: 45px;
