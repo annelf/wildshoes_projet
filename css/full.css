@@ -12,34 +12,40 @@
 
 body {
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    min-width: 300px;   
+
+    min-width: 300px; 
+
 }
 
-.container{
-	margin-left: 0px;
-}
+
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .full {
-	background: url('http://thetwopines.com/wp-content/uploads/2016/01/LEATHERPIECES.jpg') no-repeat center center fixed;
+	background: url('http://thetwopines.com/wp-content/uploads/2016/01/LEATHERPIECES.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 850px;
     padding-top: 10px;  
 }
 
-.title_header{
-	font-family: 'Rufina', serif;  
-	color: rgb(180, 147, 77);
+.text-center{
+	font-size: 30px;
 	padding-top: 150px;
+	font-family: 'Homemade Apple', cursive; 
+
+
+	color: black;
+	text-shadow: 2px 3px 0.4px rgb(191,167,157);	
+
 }
+
 
 .title_header h1{
 	font-size: 70px;
 	font-family: 'Great Vibes', cursive;
+
 	color: rgb(21, 13, 15);
 	margin-top: 5px;
 	text-align: center;
@@ -49,9 +55,11 @@ body {
 h1 {
 	font-family: 'Cinzel', serif;
 	color: rgb(21, 13, 15);
+
 }
 
-.title_header p{
+
+.text-center p{
 	font-size: 20px;
 	line-height: 50px;
 	text-align: center;
@@ -64,8 +72,10 @@ h1 {
 }
 
 .presentation{
-	/*background: url('http://static.facegfx.com/2012/brown-stripe-texture-background-06-hd-pictures_558734763.jpg');*/
-	background: rgb(83, 63, 52);
+
+	background: url('http://static.facegfx.com/2012/brown-stripe-texture-background-06-hd-pictures_558734763.jpg');
+	background-color: rgb(83, 63, 52);
+
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -96,6 +106,11 @@ h1 {
 	margin-bottom: 0px;
 	font-size: 18px;
 	font-family: 'Cinzel', serif;
+}
+
+
+.button{
+	button: url("http://www.supportduweb.com/");
 }
 
 .shoehorn{
