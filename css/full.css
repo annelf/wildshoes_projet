@@ -31,12 +31,24 @@ body {
 	padding-top: 150px;
 	font-family: 'Homemade Apple', cursive; 
 
+<<<<<<< HEAD
 	color: black;
 	text-shadow: 2px 3px 0.4px rgb(191,167,157);	
 }
 
 .text-center h1 {
 	
+=======
+.title_header h1{
+	font-size: 70px;
+	font-family: 'Great Vibes', cursive;
+	color: rgb(180, 147, 77);
+}
+
+h1 {
+	font-family: 'Cinzel', serif;
+	color: rgb(21, 13, 15);
+>>>>>>> parent of 7f565b1... modifs presentation
 }
 
 .text-center p{
