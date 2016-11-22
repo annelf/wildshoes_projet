@@ -10,50 +10,43 @@
 
 body {
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    min-width: 300px;
-   
+    min-width: 300px; 
 }
 
-.container{
-	margin-left: 0px;
-}
+
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .full {
-	background: url('http://thetwopines.com/wp-content/uploads/2016/01/LEATHERPIECES.jpg') no-repeat center center fixed;
+	background: url('http://thetwopines.com/wp-content/uploads/2016/01/LEATHERPIECES.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 850px;
     padding-top: 10px;  
 }
 
-.title_header{
-	font-family: 'Homemade Apple', cursive; 
-	text-align: center; 
-	color: black;
-	padding-top: 150px;
-	text-shadow: 2px 3px 0.4px rgb(191,167,157);
-
-}
-
-.title_header h1{
+.text-center{
 	font-size: 30px;
+	padding-top: 150px;
+	font-family: 'Homemade Apple', cursive; 
+
+	color: black;
+	text-shadow: 2px 3px 0.4px rgb(191,167,157);	
 }
 
-.title_header p{
+.text-center h1 {
+	
+}
+
+.text-center p{
 	font-size: 20px;
 	line-height: 50px;
 }
 
 .presentation{
-<<<<<<< HEAD
 	background: url('http://static.facegfx.com/2012/brown-stripe-texture-background-06-hd-pictures_558734763.jpg');
-=======
 	background-color: rgb(83, 63, 52);
->>>>>>> footer
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -82,6 +75,11 @@ body {
 	font-style: italic;
 }
 
+
+.button{
+	button: url("http://www.supportduweb.com/");
+}
+
 .shoehorn{
 	margin-top: 200px;
 	margin-bottom: 200px;
@@ -101,8 +99,6 @@ body {
 .titre-slide {
 	font-size: 16px;
 }
-
-
 
 .titre-slide {
 	font-size: 30px;
